@@ -1,0 +1,35 @@
+:root {
+  --primary-color: rgb(3, 141, 3);
+  --secondary-color: rgb(246, 229, 197);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  max-width: 100%;
+  padding-top: 70px;
+  background-color: var(--secondary-color) !important;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: var(--primary-color) !important;
+}
+
+.nav-item a{
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.croissant-image {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto;
+}
+
+.contact{
+    color: rgb(116, 43, 226);
+}
